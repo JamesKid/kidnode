@@ -1,0 +1,26 @@
+{
+    "name": "kidnode",
+    "version": "1.0.0",
+    "description": "KidNode Web FrameWork",
+    "main": "index.js",
+    "dependencies": {
+        "express": "^4.16.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "make test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JamesKid/kidnode.git"
+    },
+    "keywords": [
+        "rdzkhello"
+    ],
+    "author": "Vimkid",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/JamesKid/kidnode/issues"
+    },
+    "homepage": "https://github.com/JamesKid/kidnode#readme"
+}
