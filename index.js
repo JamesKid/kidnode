@@ -1,3 +1,4 @@
+/*
 const http = require('http'); // 引用http模块
 const hostname = '127.0.0.1';
 const port = 3000;
@@ -11,4 +12,11 @@ const server = http.createServer((req, res) => { // 创建server
 server.listen(port, hostname, () => {
     console.log(`Server running at http://${hostname}:${port}/`);
 });
+*/
+
+var server = require("./kid_modules/server");
+var router = require("./kid_modules/router");
+ 
+server.start(router.route);
+
 

@@ -4,7 +4,8 @@
     "description": "KidNode Web FrameWork",
     "main": "index.js",
     "dependencies": {
-        "express": "^4.16.1"
+        "express": "^4.16.1",
+        "mysql": "^2.15.0"
     },
     "devDependencies": {},
     "scripts": {
