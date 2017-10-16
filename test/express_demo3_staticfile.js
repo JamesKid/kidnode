@@ -5,7 +5,7 @@ var app = express();
 
 app.use(express.static(path.join(__dirname, "../assets")));
 
-app.get('/', function (req, res) {
+app.get('/public', function (req, res) {
     res.send('Hello World');
 })
 

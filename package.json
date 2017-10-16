@@ -4,7 +4,9 @@
     "description": "KidNode Web FrameWork",
     "main": "index.js",
     "dependencies": {
+        "cookie-parser": "^1.4.3",
         "express": "^4.16.1",
+        "multer": "^1.3.0",
         "mysql": "^2.15.0"
     },
     "devDependencies": {},
